@@ -1,0 +1,27 @@
+
+.alignment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: auto;
+}
+
+.alignment-items{
+    max-width: 50%;
+
+}
+.alignment-items ul{
+    display: inline;
+}
+.alignment-items li{
+    display: inline;
+    float: left;
+    padding-inline: 5px;
+}
